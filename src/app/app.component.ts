@@ -8,7 +8,7 @@ import { isPlatformBrowser, DOCUMENT } from '@angular/common';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'angular-serverless';
+  title = 'angular-serverless CJava-Perú';
 public ngOnInit(): void {
     if (!isPlatformBrowser(this.platformId)) {
         const bases = this.document.getElementsByTagName('base');
